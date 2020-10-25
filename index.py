@@ -66,7 +66,6 @@ def on_browser():
 <html lang="ja">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Python MeCab CGI</title>
     <style>
@@ -91,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
     qElem.focus();
   }
 });
+
     </script>
   </head>
   <body>
